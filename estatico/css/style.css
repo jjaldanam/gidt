@@ -10,3 +10,52 @@ body{
     background-position:top center;
     height: 1507px;
 }
+
+header{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:100px;
+    background:#fff;
+}
+
+nav{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:60px;
+    background:gray;
+}
+
+#slide{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:210px;
+    background:dodgerblue;
+}
+
+article{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:570px;
+    background:white;
+}
+
+#bottom{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:330px;
+    background:gray;
+}
+
+footer{
+    position: relative;
+    margin:auto;
+    width:1000px;
+    height:370px;
+    background:white;
+    opacity:.5;
+}
