@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -16,7 +17,18 @@ header{
     margin:auto;
     width:1000px;
     height:100px;
-    background:#fff;
+    /*background:white;*/
+}
+
+#logo{
+    position:absolute;
+    left:0;
+    padding-left:37px;
+    padding-top:15px;
+}
+#titulo{
+    position:absolute;
+    right:0;
 }
 
 nav{
