@@ -16,8 +16,8 @@ header{
     position: relative;
     margin:auto;
     width:1000px;
-    height:100px;
-    /*background:white;*/
+    height:105px;
+    background:white;
 }
 
 #logo{
@@ -28,15 +28,60 @@ header{
 }
 #titulo{
     position:absolute;
-    right:0;
+    height:44px;
+    width:600px;
+    right:55px;
+    top:30px;
+    line-height:44px;
+    font-size: 18px;
+    color:white;
+    text-align:right;
+    padding-right: 10px;
+    background: linear-gradient(to left, #004669, white);
+}
+
+#cuadroNaranja{
+    position:absolute;
+    height:44px;
+    width:6px;
+    right:50px;
+    top:30px;
+    line-height:44px;
+    background:chocolate;
+}
+#cuadroAmarillo{
+    position:absolute;
+    height:44px;
+    width:9px;
+    right:41px;
+    top:30px;
+    line-height:44px;
+    background:orange;
 }
 
 nav{
     position: relative;
     margin:auto;
     width:1000px;
-    height:60px;
-    background:gray;
+    height:58px;
+    background:rgba(0,70,105,1);
+}
+
+nav div{
+    float: right;
+    width:80px;
+    height:58px;
+    line-height:58px;
+    color:white;
+}
+
+nav li{
+    float: left;
+    margin-left: 40px;
+    /*width:130px;*/
+    height:58px;
+    line-height:58px;
+    color:white;
 }
 
 #slide{
@@ -44,17 +89,43 @@ nav{
     margin:auto;
     width:1000px;
     height:210px;
-    background:dodgerblue;
+    background:url("../images/Banner-gidt.jpg");
+    background-position:center;
+    background-size: contain;
 }
 
 article{
     position: relative;
     margin:auto;
     width:1000px;
-    height:570px;
     background:white;
+    padding-bottom: 40px;
+}
+h4{
+    margin:20px 70px;
 }
 
+p{
+    padding: 20px 70px;
+}
+
+hr{
+    margin: 0 70px;
+    border: 0;
+    border-top: 1px solid #eee;
+
+}
+
+p.centerBlack{
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+article ul li{
+    list-style: disc;
+    margin: 0 100px;
+}
 #bottom{
     position: relative;
     margin:auto;
