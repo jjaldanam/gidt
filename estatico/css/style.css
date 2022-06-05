@@ -6,11 +6,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    background:url(../images/modelo1.png);
-    background-position:top center;
-    height: 1507px;
-}
+/*body{*/
+/*    background:url(../images/modelo1.png);*/
+/*    background-position:top center;*/
+/*    height: 1507px;*/
+/*}*/
 
 header{
     position: relative;
@@ -98,8 +98,10 @@ article{
     position: relative;
     margin:auto;
     width:1000px;
+    height: 530px;
     background:white;
     padding-bottom: 40px;
+    /*display: none;*/
 }
 h4{
     margin:20px 70px;
@@ -131,14 +133,86 @@ article ul li{
     margin:auto;
     width:1000px;
     height:330px;
-    background:gray;
+    background:rgba(230, 230, 230, 1);
+}
+#bottom li{
+    padding: 4px 0;
+    font-size:14px;
+}
+
+
+h2{
+    color: rgba(244, 121, 32, 1);
+    font-size: 23px;
+    font-weight: normal;
+}
+
+#gobierno{
+    float: left;
+    width: 215px;
+    padding-left: 39px;
+    padding-top:15px;
+}
+
+#bottom id#enlacesInteres{
+    float: left;
+    width: 210px;
+    height: 300px;
+    padding: 11px 22px;
+}
+
+#normatividad{
+    float: left;
+    width: 215px;
+    padding-top: 10px;
+    padding-left: 8px;
+
+}
+
+#otros1{
+    float: left;
+    width: 245px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#dirUnidades{
+    padding: 8px;
+    background: #4d4df1;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#necesitasAyuda{
+    margin-top:8px;
+    padding: 8px;
+    background: darkorange;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
 }
 
 footer{
     position: relative;
-    margin:auto;
+    margin:20px auto;
     width:1000px;
-    height:370px;
     background:white;
-    opacity:.5;
+}
+footer div{
+    float: left;
+    /*width: 400px;*/
+}
+footer div img[src="images/pieVariosLogos.png"]{
+    width:400px;
+}
+footer div img[src="images/pieDerecha.png"]{
+    width:600px;
 }
