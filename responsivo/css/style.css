@@ -63,34 +63,32 @@ header .logotipo{
 /*      BARRA DE NAVEGACION       */
 /* ============================== */
 nav{
-    background: #004669;
 
 }
 
-.custom-toggler.navbar-toggler {
-    border-color: lightgreen;
+nav .nav-item a{
+    width: 130px;
 }
 
-.menu-fixed{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+nav .nav-item a:hover{
+    background: yellow;
+    color: black !important;
 }
 
-    /* :link - :visited - :focus - :hover - :active */
-    nav ul li a{
-
-        color: white;
-
-    }
-
-nav ul li i{
-    font-size: 30px;
-    /*width:45px;*/
-    /*line-height: 45px;*/
-
+nav .nav-item a:focus{
+    background: aquamarine;
+    color: black !important;
 }
+
+/* a:visited, a:link, a:focus, a:hover, a:active */
+
+/*.menu-fixed{*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 1000;*/
+/*}*/
+
 
 /* ============================== */
 /*      BANNER - SLIDE            */
@@ -132,12 +130,20 @@ aside li{
     border-radius: 5px 5px 5px 5px;
 }
 
+#dirUnidades:hover {
+    background: darkblue;
+}
+
 #necesitasAyuda{
     background: #f47920;
     text-align: center;
     font-weight: bold;
     color: white;
     border-radius: 5px 5px 5px 5px;
+}
+
+#necesitasAyuda:hover{
+    background: orangered;
 }
 
 /* -- =================================================
@@ -195,11 +201,6 @@ TABLET VERTICAL - MD revisamos en 768px
         font-size: 16px;
     }
 
-    nav{
-        font-size: 13px;
-
-
-    }
 
     footer div img[src="img/logos-iso-2021.jpg"]{
         width: 85%;
