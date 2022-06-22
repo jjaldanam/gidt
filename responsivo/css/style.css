@@ -105,6 +105,10 @@ article ul li{
     list-style: disc;
 }
 
+.caja3{
+    background: #ffeeba;
+    box-shadow: 0px 10px 10px -6px black;}
+
 /* ============================== */
 /*    Sección - ASIDE- Enlaces    */
 /* ============================== */
@@ -131,6 +135,19 @@ aside li{
 }
 
 #dirUnidades:hover {
+    background: darkblue;
+}
+
+.cajaAzul{
+    background: #3071ff;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    display: table;
+}
+
+.cajaAzul:hover {
     background: darkblue;
 }
 
